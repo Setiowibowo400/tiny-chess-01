@@ -6,7 +6,7 @@
 
 Entry for the [make.fun bounty: Build the strongest chess engine in 4 KB of Python](https://make.fun/bounty/tiny-chess-01) ($500).
 
-`main.py` is the whole engine (4,074 bytes): a 0x88 board, negamax with
+`main.py` is the whole engine (3,554 bytes): a 0x88 board, negamax with
 alpha-beta, transposition table, quiescence search with check evasions,
 killer moves, MVV-LVA ordering, null-move pruning and late-move reductions,
 iterative deepening to a fixed 100,000-node budget per move, and a
